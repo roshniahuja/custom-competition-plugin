@@ -39,16 +39,16 @@ Description
 1. Download the plugin files and upload them to the /wp-content/plugins/custom-competition-plugin/ directory.
 2. Activate the plugin through the WordPress plugins page.
 
+## Composer
+Install composer packages to autoload class file.
+`composer install`
+
 ## Usage
 Use the [competition_list] shortcode to display a list of competitions.
 Click on the "Submit Entry" button on a competition's detail page to access the entry submission form.
 Complete the form with the required information and submit. Ajax is used for a seamless submission process.
 
-## Composer
-Install composer packages to autoload class file.
-`composer install`
-
-# [Plugin Demo](https://app.screencast.com/2mu6dAziF7yXW)
+# [Plugin Demo](https://app.screencast.com/dlMY5M2FtlaJc)
 
 ## Author
 
