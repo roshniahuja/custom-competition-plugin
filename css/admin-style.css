@@ -1,0 +1,31 @@
+/* admin-style.css */
+
+/* Style for custom fields in the Entries post type */
+#custom_entries_fields {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#custom_entries_fields p {
+    margin-bottom: 15px;
+}
+
+#custom_entries_fields label {
+    display: block;
+    font-weight: bold;
+}
+
+#custom_entries_fields input[type="text"],
+#custom_entries_fields input[type="email"],
+#custom_entries_fields input[type="tel"],
+#custom_entries_fields textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+#custom_entries_fields textarea {
+    resize: vertical;
+}
